@@ -36,7 +36,7 @@ if uploaded_file is not None:
 # Predefined prompts for each button
 prompts = {
     "Feature Extraction": "give details such as brand name, pack size, and other key features from the packaging material visible in the image. and give output as brand - maggi and so on for all features give every output in bullet points",
-    "Expiry Date": "give expiry date as expiry date-(if not mentioned calculate by Manufacture date and best before months), give Manufacture date as Mfg date-, give expire/Not expire ,give months left as months left-(calculate from expiry or best before date ) give all outputs in bullet points",
+    "Expiry Date": "give expiry date/use by as expiry date-(if not mentioned calculate by Manufacture date and best before months), give Manufacture date as Mfg date-, give expired -Yes/No ,give months left as months left-(calculate from expiry or best before date ) give all outputs in bullet points",
     "Counting and Brand Recognition": "give brand and product name and quantity of that product give it in an list for eg 1) maggi noodles - 2N and so on , and in the last give the total number of products in format total quantity - 5N and if there is fruit/vegetable just replace brand name by fruit name give output in bullet points",
     "Freshness Level": "give name and the freshness level of the fruit/vegetable in the image give a name to freshness level eg. banana - ripe , give percentage level of freshness eg Freshness Percentage - 40 percentsign , give edible/not edible give all output in bullet points"
 }
