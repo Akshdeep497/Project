@@ -4,7 +4,14 @@ import streamlit as st
 import os
 from PIL import Image
 import google.generativeai as genai
-
+hide_st_style = """
+            <style>
+            #MainMenu {visibility: hidden;}
+            footer {visibility: hidden;}
+            header {visibility: hidden;}
+            </style>
+            """
+st.markdown(hide_st_style, unsafe_allow_html=True)
 # Load environment variables
 load_dotenv()
 
