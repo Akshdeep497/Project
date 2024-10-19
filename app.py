@@ -25,7 +25,7 @@ st.set_page_config(page_title="Flipkart Smart Vision System")
 st.header("Flipkart Smart Vision System")
 
 # File uploader for the image
-uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "jpeg", "png"])
+uploaded_file = st.file_uploader("Take/Upload Image", type=["jpg", "jpeg", "png"])
 image = None
 
 if uploaded_file is not None:
