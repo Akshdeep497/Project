@@ -21,7 +21,7 @@ def get_gemini_response(prompt, image):
     return response.text
 
 # Initialize Streamlit app
-st.set_page_config(page_title="Gemini Image Demo")
+st.set_page_config(page_title="Flipkart Smart Vision System")
 st.header("Flipkart Smart Vision System")
 
 # File uploader for the image
