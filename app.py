@@ -12,7 +12,7 @@ from datetime import datetime
 load_dotenv()
 
 # Configure Google Generative AI API
-genai.configure(api_key=os.getenv("GOOGLE_API_KEY3"))
+genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 
 
 #Function for feature extraction and db storage
