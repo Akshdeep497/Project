@@ -329,11 +329,10 @@ prompts1= {
 # prompts after DB implementation
 prompts = {
     "Freshness_db":"you will be given image of Fruit/vegetable you have ot give output as (name,freshness out of 10,days left before spoiled,spoiled-yes/no) you output should look like this(apple,8,10,no)",
-    "ircount_db":"you will be give an image containing different products/fruits/vegetables give output as (brand_and_product_name or item_name,count of the product/item) your output should look like ((oreo,1),(maggi,1))",
+    "ircount_db":"you will be give an image containing different products/fruits/vegetables give output as (brand_and_product_name or item_name,count of the product/item) your output should look like ((oreo,1),(maggi,1),(lays classic,1)) dont give any extra information just give product name and qunatity like i specified",
     "expiry_db":"i will give you an image of product you have to give me its expirydate it can be either useby/expirydate/bestbefore give output as(brand_and_product_name,expirydate(can be in form of useby/expirydate/bestbefore),expired yes/no,expectedlife in days(calcutlate it from expirydate-todaydate)) your output should look like (maggi,dd/mm/yy,No,20) if expiry date not visible or you cant determine expiry date your output should be(maggi,NA,NA,NA) and if you cant determine product name but determine expiry date your output should be like (NA,,dd/mm/yy,No,20)",
     "feature_db":"i will give you an image of the product give me the brand name and product name your output should look like (oreo biscuits)"
-}  
-
+}
 # Initialize a variable to store the response
 response = None
 
